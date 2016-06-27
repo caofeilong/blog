@@ -9,7 +9,7 @@ title:               feilong.cao
 tagline:             '进取･坚韧･开放･影响'
 description:         'feilong.cao@qq.com'
 url:                 https://caofeilong.github.io/blog/
-baseurl:             '/blog'
+baseurl:             ''
 paginate:            5
 
 # About/contact
