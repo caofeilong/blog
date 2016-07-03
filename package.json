@@ -1,0 +1,25 @@
+{
+  "name": "clog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:api": "aglio -i ./blueprint/index.md  -o ./api/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caofeilong/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caofeilong/blog/issues"
+  },
+  "homepage": "https://github.com/caofeilong/blog#readme",
+  "dependencies": {
+    "webpack": "^1.13.1",
+    "webpack-merge": "^0.14.0"
+  }
+}
