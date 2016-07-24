@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
+    "build-gitbook":"gitbook build ./gitbook --output= ./zk",
+    "gitbook-serve":"cd ./gitbook/ && gitbook serve",
     "build:api": "aglio -i ./blueprint/index.md  -o ./api/index.html"
   },
   "repository": {
